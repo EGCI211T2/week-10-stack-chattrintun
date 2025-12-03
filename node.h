@@ -1,10 +1,3 @@
-//
-//  linkedlist.h
-//  LinkedList_simple
-//
-//  Created by Mingmanas Sivaraksa
-//
-
 #ifndef node_h
 #define node_h
 class NODE{
@@ -41,7 +34,7 @@ void NODE::set_next(NODE *t){
 
 }
 NODE::~NODE(){
-     cout<<"deleting "<<data<<endl;
+     //cout<<"deleting "<<data<<endl;
 
 }
 
